@@ -334,6 +334,12 @@ footer{
     z-index: 10;
 }
 
+.paragraph-flex{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
 
 
 @media all and (min-width: 440px) and (max-width: 1100px){
