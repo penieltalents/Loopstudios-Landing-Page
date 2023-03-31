@@ -71,6 +71,7 @@ body{
     max-width: 7em;
     padding-inline: .8em;
     letter-spacing: 3px;
+    margin-inline: auto;
 }
 
 .container-flex{
@@ -321,6 +322,7 @@ footer{
     gap: 3em;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
 }
 
 #sideNav ul li{
