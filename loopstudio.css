@@ -31,7 +31,6 @@ body{
     font-size: 1.4em;
     display: flex;
     gap: 8.1em;
-    /* grid-auto-flow: column; */
     align-items: baseline;
     margin-inline: .8em;
     justify-content: center;
@@ -219,8 +218,7 @@ body{
 
 .button p{
     color: black;
-    border: 2px solid hsl(0, 0%, 55%);;
-    /* width: 3em; */
+    border: 2px solid hsl(0, 0%, 55%);
     padding-inline: 2.7em;
     padding-block: .6em;
     text-align: center;
@@ -318,7 +316,6 @@ footer{
 }
 
 #sideNav ul{
-    /* margin-left: 10%; */
     margin-top: 200px;
     display: flex;
     gap: 3em;
@@ -329,7 +326,6 @@ footer{
 #sideNav ul li{
     padding: 0;
     list-style-type: none;
-    /* margin-top: 50px; */
 }
 
 .index{
@@ -343,10 +339,7 @@ footer{
     .interactive-image{
         width: 84.5vw;
         margin: auto;
-        /* margin-left: 1.6em;
-        margin-right: 2.5em; */
         margin-top: 4em;
-       
     }
 
     .flex-img{
@@ -410,7 +403,6 @@ footer{
         font-size: 1.4em;
         display: flex;
         gap: 12em;
-        /* grid-auto-flow: column; */
         align-items: baseline;
         margin-inline: .8em;
         justify-content: center;
@@ -447,7 +439,6 @@ footer{
     }
 
     .box-flex{
-        /* display: none; */
         display: flex;
         justify-content: center;
     }
@@ -493,7 +484,6 @@ footer{
     }
     
     .interactive-image-paragraph p{
-        /* max-width: 16em; */
         font-size: 1.5em;
         line-height: 1.6em;
         margin-inline: auto;
@@ -580,8 +570,7 @@ footer{
 
     .button p{
         color: black;
-        border: 2px solid hsl(0, 0%, 55%);;
-        /* width: 3em; */
+        border: 2px solid hsl(0, 0%, 55%);
         padding-inline: 2.7em;
         padding-block: .6em;
         text-align: center;
@@ -624,7 +613,6 @@ footer{
         grid-auto-flow: column;
         gap: 1.5em;
         font-size: .5em;
-        /* margin-left: 15px; */
     }
 
     .nav-links a{
@@ -650,7 +638,6 @@ footer{
     }
 
     .box-flex{
-        /* display: none; */
         display: flex;
         justify-content: center;
     }
@@ -677,18 +664,14 @@ footer{
         font-family: 'Josefin sans';
         text-transform: uppercase;
         font-weight: lighter;
-        /* font-size: 2.4em; */
         font-size: 38.4px;
         line-height: 1em;
         color: black;
     }
 
     .interactive-image-paragraph p{
-        /* max-width: 26em; */
         max-width: 416px;
-        /* font-size: .9em; */
         font-size: 14.4px;
-        /* line-height: 1.3em; */
         line-height: 20.8px;
         font-family:'Alata';
         color: hsl(0, 0%, 55%);
@@ -720,8 +703,6 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        /* justify-content: space-around;
-        gap: 13em; */
         justify-content: center;
         gap: 40.1em; 
     }
@@ -965,7 +946,6 @@ footer{
 @media all and (max-width: 1399px) and (min-width: 745px){
     
     .box-flex{
-        /* display: none; */
         display: flex;
         justify-content: center;
     }
@@ -978,7 +958,6 @@ footer{
 @media all and (min-width: 1441px){
     
     .box-flex{
-        /* display: none; */
         display: flex;
         justify-content: center;
     }
