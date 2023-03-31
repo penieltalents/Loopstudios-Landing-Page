@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="stylesheet" type="text/css" href="loopstudio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="hero-page">
+    <div class="main-header margin">
+      <p class="logo index">loopstudios</p>
+      <span class="fa fa-bars index" id="bars" aria-hidden="true"></span>
+      <div class="nav-links">
+        <a class="link" href="#" target="_blank">About</a>
+        <a class="link" href="#" target="_blank">career</a>
+        <a class="link" href="#" target="_blank">Events</a>
+        <a class="link" href="#" target="_blank">Products</a>
+        <a class="link" href="#" target="_blank">Support</a>
+      </div>
+    </div>
+
+    <div class="box-flex">
+      <div class="box-content margin">
+        <p>immersive experiences that deliver</p>
+      </div>
+    </div>
+  </div>
+  
+    <div id="sideNav">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">career</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+  <section class="first-section">
+    <div class="flex-img">
+      <img class="interactive-image" src="images/mobile/image-interactive.jpg">
+    </div>
+    
+    <div class="container-flex">
+      <div class="interactive-image-paragraph">
+          <h1>the leader in interactive vr</h1>
+          <p>Founded in 2011, loopstudio has been producing world-class
+            virtual reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through digital
+            experiences that bind to their brand.
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="header-for-desktop-images">
+    <p class="title-for-pictures">our creations</p>
+    <p class="button-for-images">see all</p>
+  </div>
+
+  <div class="class-of-pictures">
+
+    <div class="set-of-pictures">
+      <div id="images-width" class="first-image">
+        <p class="picture-text">deep earth</p>
+      </div>
+
+      <div id="images-width" class="second-image">
+        <p id="picture-text-arcade">night arcade</p>
+      </div>
+      
+      <div id="images-width" class="third-image">
+        <p class="picture-text">soccer team vr</p>
+      </div>
+
+      <div id="images-width" class="fourth-image">
+        <p class="picture-text-grid">the grid</p>
+      </div>
+    </div>
+
+    <div class="set-of-pictures">
+
+      <div id="images-width" class="fifth-image">
+        <p class="picture-text">from up above vr</p>
+      </div>
+
+
+      <div id="images-width" class="sixth-image">
+        <p class="picture-text">pocket borealis</p>
+      </div>
+
+      <div id="images-width" class="seventh-image">
+        <p class="picture-text">the curiosity</p>
+      </div>
+
+      <div id="images-width" class="eight-image">
+        <p class="picture-text">make it fisheye</p>
+      </div>
+    </div>
+</div>
+
+<div class="flex-button">
+  <div class="button">
+    <p>see all</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-container">
+    <div class="first-footer-flex">
+      <p class="footer-logo">loopstudios</p>
+      <div class="footer-lists">
+        <a class="link" href="#" target="_blank">About</a>
+        <a class="link" href="#" target="_blank">career</a>
+        <a class="link" href="#" target="_blank">Events</a>
+        <a class="link" href="#" target="_blank">Products</a>
+        <a class="link" href="#" target="_blank">Support</a>
+      </div>
+    </div>
+
+    <div class="second-footer-flex">
+      <div class="footer-links">
+        <i class="fa fa-facebook-official link" aria-hidden="true"></i>
+        <i class="fa fa-twitter link" aria-hidden="true"></i>
+        <i class="fa fa-pinterest link" aria-hidden="true"></i>
+        <i class="fa fa-instagram link" aria-hidden="true"></i>
+      </div>
+      <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </div>
+
+  <div class="attribution">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Raphael</a>.
+    </div>
+</footer>
+
+
+<script>
+  var sideNav = document.getElementById("sideNav")
+  var menuBtn = document.getElementById("bars")
+
+  sideNav.style.display = "none"
+  menuBtn.onclick = function(){
+    if(sideNav.style.display == "none"){
+      sideNav.style.display = "inline-block";
+    }
+    else{
+      sideNav.style.display = "none"
+    }
+  }
+</script>
+
+
+ 
+  <!-- © 2021 Loopstudios. All rights reserved.
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
