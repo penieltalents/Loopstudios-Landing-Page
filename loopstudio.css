@@ -415,6 +415,8 @@ footer{
     #sideNav{
         display: none;
     }
+
+    .class
 }
 
 @media all and (max-width: 1100px) and (min-width: 100px){
@@ -423,6 +425,11 @@ footer{
         display: flex;
         margin-inline: 10%;
         justify-content: space-around;
+    }
+
+    .picture-flex{
+        display: flex;
+        justify-content: center;
     }
 }
 
