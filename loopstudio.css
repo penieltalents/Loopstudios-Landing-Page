@@ -434,11 +434,17 @@ footer{
 
 @media all and (max-width: 1100px) and (min-width: 100px){
     
+    .link:hover{
+        border-bottom: none;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+
     .main-header{
         display: flex;
         margin-inline: 5%;
-        gap: 20px;
-        justify-content: space-around;
+        /* gap: 35px; */
+        justify-content: space-between;
     }
 
     .picture-flex{
